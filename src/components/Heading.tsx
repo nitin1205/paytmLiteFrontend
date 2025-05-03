@@ -5,7 +5,7 @@ type HeadingProps = {
 
 export default function Heading({label}: HeadingProps) {
   return (
-    <div className="font-bold text-4xl pt-6">
+    <div className="font-bold text-4xl pt-6 font-serif">
         {label}
     </div>
   )
